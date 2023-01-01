@@ -1,0 +1,37 @@
+.theme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme .title {
+    margin-right: 1rem;
+}
+
+.theme-numbers,
+.theme-btns {
+    width: 50px;
+    height: 15px;
+    display: flex;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme-numbers {
+    margin-bottom: 1rem;
+}
+
+.theme-btns {
+    background-color: var(--toggle-background-th1);
+    border-radius: 20px;
+}
+
+.theme-btns span {
+    border-radius: 50%;
+    width: calc(100% / 3 - 5px);
+    height: 100%;
+    padding: 0 2.5px;
+    background-color: var(--Dark-red-th1);
+    cursor: pointer;
+}
